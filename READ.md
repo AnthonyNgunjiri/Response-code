@@ -2,21 +2,28 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [HTTP Response Status Codes Summary](#http-response-status-codes-summary)
+  - [HTTP RESPONSE STATUS CODE](#http-response-status-code)
+- [Informational Responses (100 – 199)**:](#informational-responses-100--199)
+- [Successful Responses (200 – 299)**:](#successful-responses-200--299)
+- [Server Error Responses (500 – 599)**:](#server-error-responses-500--599)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-### HTTP Response Status Codes Summary
+
+
+### HTTP RESPONSE STATUS CODE
 
 HTTP response status codes indicate the result of an HTTP request. They are grouped into five categories:
 
-1. **Informational Responses (100 – 199)**: Indicates the request was received and understood. The client may continue the process.
+ ## Informational Responses (100 – 199)**: 
+ Indicates the request was received and understood. The client may continue the process.
    - **100 Continue**: The client should continue the request.
    - **101 Switching Protocols**: The server is switching protocols.
    - **102 Processing**: The request is being processed, but no response is available yet.
    - **103 Early Hints**: The server sends preliminary responses to facilitate preloading resources.
 
-2. **Successful Responses (200 – 299)**: The request was successfully received, understood, and accepted.
+ ## Successful Responses (200 – 299)**: 
+The request was successfully received, understood, and accepted.
    - **200 OK**: The request succeeded.
    - **201 Created**: A new resource was created.
    - **202 Accepted**: The request has been accepted but not yet processed.
@@ -28,7 +35,8 @@ HTTP response status codes indicate the result of an HTTP request. They are grou
    - **208 Already Reported**: The members of a DAV binding are already enumerated.
    - **226 IM Used**: The response is a result of instance manipulations.
 
-3. **Redirection Messages (300 – 399)**: Further action needs to be taken by the user agent to fulfill the request.
+3. ## Redirection Messages (300 – 399)**: 
+Further action needs to be taken by the user agent to fulfill the request.
    - **300 Multiple Choices**: Multiple options for the resource.
    - **301 Moved Permanently**: The resource has been permanently moved to a new URI.
    - **302 Found**: The resource is temporarily located at a different URI.
@@ -38,7 +46,7 @@ HTTP response status codes indicate the result of an HTTP request. They are grou
    - **307 Temporary Redirect**: The resource resides temporarily under a different URI; use the same method.
    - **308 Permanent Redirect**: The resource is permanently located at a different URI; use the same method.
 
-4. **Client Error Responses (400 – 499)**: The request contains bad syntax or cannot be fulfilled.
+4. ## Client Error Responses (400 – 499)**: The request contains bad syntax or cannot be fulfilled.
    - **400 Bad Request**: The server cannot process the request due to client error.
    - **401 Unauthorized**: Authentication is required.
    - **402 Payment Required**: Reserved for future use.
@@ -69,7 +77,8 @@ HTTP response status codes indicate the result of an HTTP request. They are grou
    - **431 Request Header Fields Too Large**: The header fields are too large.
    - **451 Unavailable For Legal Reasons**: The resource is unavailable for legal reasons.
 
-5. **Server Error Responses (500 – 599)**: The server failed to fulfill a valid request.
+ ## Server Error Responses (500 – 599)**: 
+The server failed to fulfill a valid request.
    - **500 Internal Server Error**: The server encountered an error and could not complete the request.
    - **501 Not Implemented**: The server does not support the functionality required to fulfill the request.
    - **502 Bad Gateway**: The server, while acting as a gateway, received an invalid response.
