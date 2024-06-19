@@ -46,7 +46,8 @@ Further action needs to be taken by the user agent to fulfill the request.
    - **307 Temporary Redirect**: The resource resides temporarily under a different URI; use the same method.
    - **308 Permanent Redirect**: The resource is permanently located at a different URI; use the same method.
 
-4. ## Client Error Responses (400 – 499)**: The request contains bad syntax or cannot be fulfilled.
+4. ## Client Error Responses (400 – 499)**:
+ The request contains bad syntax or cannot be fulfilled.
    - **400 Bad Request**: The server cannot process the request due to client error.
    - **401 Unauthorized**: Authentication is required.
    - **402 Payment Required**: Reserved for future use.
